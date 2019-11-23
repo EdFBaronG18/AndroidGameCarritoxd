@@ -23,9 +23,7 @@ public class GamePlay extends AppCompatActivity {
 
         gameSurfaceView = new GameSurfaceView(this, screenSize.x, screenSize.y);
         setContentView(gameSurfaceView);
-
     }
-
 
     @Override
     protected void onPause() {
